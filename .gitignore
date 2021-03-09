@@ -1,0 +1,4 @@
+cuter/__pycache__/*
+cuter/views/__pycache__/*
+cuter/migrations/__pycache__/*
+URL_cuter/__pycache__/*

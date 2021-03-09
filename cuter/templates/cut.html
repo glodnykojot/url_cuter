@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block content %}
+
+<div role="main">
+    <form method="post"> {% csrf_token %}
+        <div>
+            <input name="URL" type="text" required>
+        </div>
+        <div>
+            <button type="submit" >
+                <span class="text">Create</span>
+            </button>
+        </div>
+    </form>
+    
+</div>
+{% endblock %}
